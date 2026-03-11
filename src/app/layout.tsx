@@ -13,8 +13,8 @@ const inter = Inter({
 // The template only loaded Inter originally.
 
 export const metadata: Metadata = {
-  title: "Aura Estates - Modern Living",
-  description: "Curate your perfect environment. Navigate a meticulously selected portfolio of architectural spaces.",
+  title: "P&P properties",
+  description: "Din partner för exklusiva bostadsaffärer i Stockholm och över hela världen.",
 };
 
 export default function RootLayout({
