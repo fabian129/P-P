@@ -77,13 +77,14 @@ export function TopMenu() {
     <nav className="flex items-center justify-between py-6 lg:py-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-stone-200/60 mb-12">
       {/* Logo */}
       <div className="flex-shrink-0">
-        <a href="/" className="block relative h-10 hover:opacity-80 transition-opacity">
+        <a href="/" className="block relative w-48 h-10 hover:opacity-80 transition-opacity">
           <Image 
-            src="/Properties_partners.R.white-c95e2828.png" 
+            src="/logo.png" 
             alt="Properties & Partners" 
-            width={180} 
-            height={40} 
-            className="h-8 w-auto object-contain brightness-0" 
+            fill 
+            className="object-contain object-left" 
+            priority
+            style={{ filter: "invert(1) brightness(0)" }}
           />
         </a>
       </div>
