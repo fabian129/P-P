@@ -77,23 +77,21 @@ export function TopMenu() {
     <nav className="flex items-center justify-between py-6 lg:py-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-stone-200/60 mb-12">
       {/* Logo */}
       <div className="flex-shrink-0">
-        <a href="/" className="block relative w-48 h-10 hover:opacity-80 transition-opacity">
+        <a href="/" className="block relative h-10 hover:opacity-80 transition-opacity">
           <Image 
-            src="/logo.png" 
+            src="/Properties_partners.R.white-c95e2828.png" 
             alt="Properties & Partners" 
-            fill 
-            className="object-contain object-left" 
-            priority
-            style={{ filter: "invert(1) brightness(0)" }}
+            width={180} 
+            height={40} 
+            className="h-8 w-auto object-contain brightness-0" 
           />
         </a>
       </div>
-      
       {/* Classic Centered Navigation */}
       <div className="hidden md:flex items-center gap-8 text-sm font-normal text-stone-600">
         <a href="/" className="hover:text-stone-900 transition-colors">Start</a>
-        <a href="/listings" className="text-stone-900 border-b border-stone-900 pb-0.5">Collection</a>
-        <a href="/#contact-section" className="hover:text-stone-900 transition-colors">Advisory</a>
+        <a href="/listings" className="text-stone-900 border-b border-stone-900 pb-0.5">Bostäder</a>
+        <a href="/#contact-section" className="hover:text-stone-900 transition-colors">Rådgivning</a>
         <a href="/#about" className="hover:text-stone-900 transition-colors">Vår filosofi</a>
       </div>
       

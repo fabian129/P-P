@@ -21,8 +21,8 @@ export function Navbar() {
       {/* Classic Centered Navigation */}
       <div className="hidden md:flex items-center gap-8 text-sm font-normal text-stone-600">
         <a href="/" className="hover:text-stone-900 transition-colors">Start</a>
-        <a href="/listings" className="hover:text-stone-900 transition-colors">Collection</a>
-        <a href="#contact-section" className="hover:text-stone-900 transition-colors">Advisory</a>
+        <a href="/listings" className="hover:text-stone-900 transition-colors">Bostäder</a>
+        <a href="#contact-section" className="hover:text-stone-900 transition-colors">Rådgivning</a>
         <a href="#about" className="hover:text-stone-900 transition-colors">Vår filosofi</a>
       </div>
       
